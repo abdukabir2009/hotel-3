@@ -103,7 +103,19 @@
 }
 .header4{
     background-image: none;
-    background-color: blue;
+    background-color: #14274A;
+    /* background-color: blue; */
+}
+
+.title {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+
+    @media (max-width: 500px) {
+        font-size: 50px;
+    }
 }
 .wrap1{
     display: flex;
@@ -251,7 +263,7 @@ form{
 
     h2{
         margin-bottom: 35px;
-        font-size: 60px;
+        font-size: 45px;
         font-weight: 700;
         text-transform: uppercase;
         font-family: 'Times New Roman', Times, serif;
@@ -374,3 +386,55 @@ form{
         
     }
 }
+
+
+
+
+
+.for {
+    padding-bottom: 150px;
+    .face__title{
+        text-align: left;
+    }
+}
+.container {
+}
+.face__title {
+}
+.for__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    gap: 20px;
+
+    @media (max-width: 700px) {
+        grid-template-columns: 1fr;
+    }
+}
+.for__box {
+    p,b{
+        font-size: 30px;
+    }
+    b{
+        margin: 20px 0;
+        display: block;
+    }
+   
+}
+.for__form {
+
+    display: flex;
+    flex-direction: column;
+
+    input, textarea{
+    
+        padding: 15px;
+        margin: 8px 0 30px;
+    }
+    textarea{
+        height: 300px;
+    }
+}
+.btn {
+    margin-left: auto;
+}
+
